@@ -6,13 +6,7 @@ This project utilizes the Twitch API to provide users with a comprehensive tool 
 
 ## Getting Started
 
-To get started with the project, you'll need to set up your environment variables.
-
-### Prerequisites
-
 Make sure you have the following:
-
-- Node.js and npm installed
 - A Twitch account to obtain your client ID and token
 
 ### Setup Instructions
@@ -20,7 +14,8 @@ Make sure you have the following:
 1. **Clone the Repository**:
 2. **Install Dependencies and Update the .env File**
      Add your Twitch client ID and token in the following format:
-      ``` TWITCH_CLIENT_ID=your_client_id_here
+      ```bash
+          TWITCH_CLIENT_ID=your_client_id_here
           TWITCH_TOKEN=your_access_token_here
 
 
