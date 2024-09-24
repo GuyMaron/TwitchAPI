@@ -13,11 +13,15 @@ To get started with the project, you'll need to set up your environment variable
 Make sure you have the following:
 
 - Node.js and npm installed
-- A Twitch developer account to obtain your client ID and token
+- A Twitch account to obtain your client ID and token
 
 ### Setup Instructions
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/YourUsername/TwitchAPI.git
-   cd TwitchAPI
+2. **Install Dependencies and Update the .env File**
+     Add your Twitch client ID and token in the following format:
+      ''' TWITCH_CLIENT_ID=your_client_id_here
+          TWITCH_TOKEN=your_access_token_here'''
+
+
+
