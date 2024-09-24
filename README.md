@@ -15,8 +15,10 @@ Make sure you have the following:
 2. **Install Dependencies and Update the .env File**
      Add your Twitch client ID and token in the following format:
       ```bash
-          TWITCH_CLIENT_ID=your_client_id_here
-          TWITCH_TOKEN=your_access_token_here
+          CLIENT_ID=your_client_id_here
+          AUTHORIZATION=your_access_token_here
+3. **Run both the backend and frontend servers, and enjoy the application!** 
+
 
 
 
