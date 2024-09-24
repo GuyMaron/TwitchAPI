@@ -12,13 +12,14 @@ Make sure you have the following:
 ### Setup Instructions
 
 1. **Clone the Repository**:
-2. **Install Dependencies and Update the .env File**
-     Add your Twitch client ID and token in the following format:
-
+2. **Install Dependencies and Update the `.env` File**:
+   - Add your Twitch client ID and token in the following format to the env file:
    
-      ```bash
-          CLIENT_ID=your_client_id_here
-          AUTHORIZATION=your_access_token_here
+     ```bash
+     CLIENT_ID=your_client_id_here
+     AUTHORIZATION=your_access_token_here
+     ```
+
 
 
       
