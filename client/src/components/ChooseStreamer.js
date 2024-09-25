@@ -84,10 +84,10 @@ export default function  ChooseStreamer({setError})
     },[refresh,navigate,setError])
     const refreshOnClick=async ()=>{
         setAllGames([])
-        await axios.post('http://localhost:5000/twitchApi/updateGames',{games:[]})
         setChosenGame(null)
         setChosenStreamer(null)
         setLoadingStreams(true)
+        await axios.post('http://localhost:5000/twitchApi/updateGames',{games:[]})
         setRefresh(prev=>prev+1)
 
     }
